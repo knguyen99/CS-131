@@ -1,0 +1,52 @@
+Homework 2
+
+I went through each TA slides to help get to my solution.
+
+For make_parser, I made small changes to the helper function of make_matcher.
+Both of the functions use a mutually recursive function to help create the 
+return value. This is, however, is a weakness because the structure of each 
+of the helper functions are procedurally the same. 
+
+Rec_rules / check_rule: This is a pair of mutually recursive functions used 
+for make matcher. In rec_rules, it checks the list of rules given the start 
+symbol and the rules function. If the rules list is empty, then it returns 
+empty. If not, it recurses throught the list of rules calling check_rule 
+until something other than None is returned. Check_rule checks the current 
+rule. If the rule is empty, then the accepor called on the fragment is 
+returned. If not, it goes through the list of the rule, matching the 
+fragmentwith the rule. 
+
+Prec_rules / Pcheck_rules: I did this inefficiently but I copied rec_rules
+ / check_rule and made small changes. I added two additional inputs, a start
+symbol inpu for prec_rules and a path input for both functions. In addition
+to doing what the rec_rules / check_rule functions already do, the path 
+keeps track of the path for each rule, appending the current rule symbol
+being checked to the end of the path. Furthermore, I created an acceptor 
+based on the TA slides that returns "Some" and the path if the fragment is 
+empty. This comes into play in check_rule when current rule is empty, then 
+the acceptor applied to the current path and current fragment is returned.
+
+Create_tree / deeper_tree: This is a pair of mutually recursive functions
+used to create the tree for make_parser. This is another differerce between
+make_parser and make_matcher. In make_parser, after calling prec_rules, the
+return value is then used as an input for create_tree. This function, given 
+the root (which is the grammar starting symbol). If the root is empty, then 
+a tuple is returned with the fragment and an empty list. Otherwise, if the
+root is a list, then the function goes through the list creating a hierarchy,
+going horizontally and vertically through the tree.
+
+The big weaknesses of my program is that rec_rules / check_rules and 
+prec_rules / pcheck_rules are nearly identically. Although the differnces 
+in rec_rules / check_rules and prec_rules / pcheck_rules may be small, it 
+is important in making create_tree work to build a correct tree. Making sure 
+that the path is saved is how create_tree can analyze a list and turn it into 
+a tree. 
+
+Another weakness is the real world application of the program and how it may
+be incorrect. This is because the program returns the first match, not the 
+longest match. If a fragment matches a pattern earlier but has a suffix that 
+is also valid, the suffix can be returned if the shorter rule comes first. In 
+the reverse, if a longer rule comes first but the fragment can be shortened, 
+the suffix can be empty. Thus, the programdoes not account for all the possible 
+valid sentences, but just returns the first match, which can be an issue for real 
+world application.  

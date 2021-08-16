@@ -1,0 +1,81 @@
+Total time 1.99868 s real, 1.99728 s CPU
+Average swap time 19.9868 ns real, 19.9728 ns CPU
+Total time 26.0162 s real, 89.8575 s CPU
+Average swap time 2081.29 ns real, 898.575 ns CPU
+Total time 24.8174 s real, 83.7923 s CPU
+Average swap time 9926.97 ns real, 837.923 ns CPU
+Total time 19.8716 s real, 63.7290 s CPU
+Average swap time 19871.6 ns real, 637.290 ns CPU
+Total time 1.95252 s real, 1.95118 s CPU
+Average swap time 19.5252 ns real, 19.5118 ns CPU
+Total time 26.9300 s real, 84.5334 s CPU
+Average swap time 2154.40 ns real, 845.334 ns CPU
+Total time 28.4014 s real, 90.0891 s CPU
+Average swap time 11360.6 ns real, 900.891 ns CPU
+Total time 26.6743 s real, 83.6317 s CPU
+Average swap time 26674.3 ns real, 836.317 ns CPU
+Total time 2.01166 s real, 2.01004 s CPU
+Average swap time 20.1166 ns real, 20.1004 ns CPU
+Total time 28.9541 s real, 91.4783 s CPU
+Average swap time 2316.33 ns real, 914.783 ns CPU
+Total time 28.5431 s real, 89.1848 s CPU
+Average swap time 11417.2 ns real, 891.848 ns CPU
+Total time 30.1825 s real, 93.3622 s CPU
+Average swap time 30182.5 ns real, 933.622 ns CPU
+Total time 1.44626 s real, 1.44488 s CPU
+Average swap time 14.4626 ns real, 14.4488 ns CPU
+Total time 3.40342 s real, 26.6297 s CPU
+Average swap time 272.274 ns real, 266.297 ns CPU
+output sum mismatch (-29311 != 0)
+Total time 2.96836 s real, 88.3566 s CPU
+Average swap time 1187.34 ns real, 883.566 ns CPU
+output sum mismatch (-2248 != 0)
+Total time 2.76741 s real, 82.4007 s CPU
+Average swap time 2767.41 ns real, 824.007 ns CPU
+output sum mismatch (21440 != 0)
+Total time 1.51581 s real, 1.51449 s CPU
+Average swap time 15.1581 ns real, 15.1449 ns CPU
+Total time 4.75299 s real, 36.9349 s CPU
+Average swap time 380.239 ns real, 369.349 ns CPU
+output sum mismatch (-17204 != 0)
+Total time 3.06917 s real, 92.2589 s CPU
+Average swap time 1227.67 ns real, 922.589 ns CPU
+output sum mismatch (-26798 != 0)
+Total time 2.94937 s real, 90.2393 s CPU
+Average swap time 2949.37 ns real, 902.393 ns CPU
+output sum mismatch (-20641 != 0)
+Total time 1.39206 s real, 1.39072 s CPU
+Average swap time 13.9206 ns real, 13.9072 ns CPU
+Total time 3.51968 s real, 28.0224 s CPU
+Average swap time 281.574 ns real, 280.224 ns CPU
+output sum mismatch (3838 != 0)
+Total time 2.27118 s real, 68.6021 s CPU
+Average swap time 908.471 ns real, 686.021 ns CPU
+output sum mismatch (-38371 != 0)
+Total time 2.30155 s real, 69.6892 s CPU
+Average swap time 2301.55 ns real, 696.892 ns CPU
+output sum mismatch (-41411 != 0)
+Total time 2.61694 s real, 2.61561 s CPU
+Average swap time 26.1694 ns real, 26.1561 ns CPU
+Total time 8.48076 s real, 67.2084 s CPU
+Average swap time 678.461 ns real, 672.084 ns CPU
+Total time 11.0560 s real, 334.983 s CPU
+Average swap time 4422.40 ns real, 3349.83 ns CPU
+Total time 5.44432 s real, 164.137 s CPU
+Average swap time 5444.32 ns real, 1641.37 ns CPU
+Total time 2.63274 s real, 2.63119 s CPU
+Average swap time 26.3274 ns real, 26.3119 ns CPU
+Total time 9.12739 s real, 72.4757 s CPU
+Average swap time 730.191 ns real, 724.757 ns CPU
+Total time 3.96634 s real, 118.005 s CPU
+Average swap time 1586.54 ns real, 1180.05 ns CPU
+Total time 4.71501 s real, 143.404 s CPU
+Average swap time 4715.01 ns real, 1434.04 ns CPU
+Total time 2.68097 s real, 2.67959 s CPU
+Average swap time 26.8097 ns real, 26.7959 ns CPU
+Total time 6.83131 s real, 54.4327 s CPU
+Average swap time 546.505 ns real, 544.327 ns CPU
+Total time 3.73603 s real, 111.796 s CPU
+Average swap time 1494.41 ns real, 1117.96 ns CPU
+Total time 3.59869 s real, 110.029 s CPU
+Average swap time 3598.69 ns real, 1100.29 ns CPU

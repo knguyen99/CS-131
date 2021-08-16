@@ -1,0 +1,41 @@
+Homework 1
+
+I followed the ta hints, with the change of creating a new function that puts
+rules back into the computed fix point equation because the recursion gets rid 
+of them.
+
+Function Descriptions:
+	subset: a recursive function that checks each element of a to see if it is a member of b. 
+	equal_sets: if a is a subset of b and b is a subset of a, then a and b are equal sets.
+	set_diff: a recursive functon that check every element of a and if the element is not 
+			contained in b, then the element is added to the return list.
+	set_union: this is all the elements in a and all the elements in b thus the function 
+			appends the uniquely b elements to the a list
+	set_intersection: a recursive function that checks each element of a and if a is in b
+			then it is added to the return list. (pretty much the reverse of set_diff)
+	computed_fixed_point: A recursive function that returns only when given a function f, starting 
+			point x and an equality eq, f(x) equals x. Otherwise, the function calls itself 
+			with the f(x) as the starting point.
+	get_lt: gets the left value of the tuple.
+	get_rt: gets the right value of the tuple.
+	get_start: gets the start value for recursion in the format (rules, [[starting symbol]])
+	nonterms: a recursive function that gets the nonterminals given a list. this function
+			returns the list of the nonterminals.
+	get_reachable_symbols: is a recursive function that gets all the reachable symbols for 
+			that level. It does this by going down all the rules and if the symbol is in
+			the reachable symbols, then it appends all the nonterminal symbols to the
+			reachable symbols.
+	level_reachable: a function used for the computed fixed point funciton. This just adds
+			the original rules back into the first side element of the tuple.
+	reachable_symbols: gets a list of all reachable symbols from the starting symbol
+			through computed_fixed_point and comparing equality between reachable symbols.
+	filter_rules: a function that filters all the rules based on whether the symbol is in 
+			the reachable symbols.
+	filter_reachable: returns a tuple in the format (symbol, [reachable rules])
+
+Resources:
+TA Github
+https://github.com/CS131-TA-team/UCLA_CS131_CodeHelp/blob/master/OCaml/hw1/python_hint.py 
+
+To learn about list funcitons and pervasives
+https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html

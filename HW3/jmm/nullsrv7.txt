@@ -1,0 +1,24 @@
+Total time 1.49112 s real, 1.48888 s CPU
+Average swap time 14.9112 ns real, 14.8888 ns CPU
+Total time 0.483550 s real, 3.76721 s CPU
+Average swap time 38.6840 ns real, 37.6721 ns CPU
+Total time 0.597472 s real, 16.3136 s CPU
+Average swap time 238.989 ns real, 163.136 ns CPU
+Total time 0.587443 s real, 16.3281 s CPU
+Average swap time 587.443 ns real, 163.281 ns CPU
+Total time 1.68447 s real, 1.68230 s CPU
+Average swap time 16.8447 ns real, 16.8230 ns CPU
+Total time 0.438411 s real, 3.38286 s CPU
+Average swap time 35.0729 ns real, 33.8286 ns CPU
+Total time 0.521088 s real, 13.9503 s CPU
+Average swap time 208.435 ns real, 139.503 ns CPU
+Total time 0.881928 s real, 26.2498 s CPU
+Average swap time 881.928 ns real, 262.498 ns CPU
+Total time 1.56174 s real, 1.55955 s CPU
+Average swap time 15.6174 ns real, 15.5955 ns CPU
+Total time 0.474078 s real, 3.62974 s CPU
+Average swap time 37.9262 ns real, 36.2974 ns CPU
+Total time 0.552783 s real, 14.4512 s CPU
+Average swap time 221.113 ns real, 144.512 ns CPU
+Total time 0.745512 s real, 21.2327 s CPU
+Average swap time 745.512 ns real, 212.327 ns CPU
