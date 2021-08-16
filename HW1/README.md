@@ -1,3 +1,3 @@
-# Homework 1
+# Homework 1: Fixpoints and Grammar Filters
 
-Homework Description: http://web.cs.ucla.edu/classes/spring20/cs131/hw/hw1.html
+Description: http://web.cs.ucla.edu/classes/spring20/cs131/hw/hw1.html
